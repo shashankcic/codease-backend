@@ -59,7 +59,7 @@ updateModule = async (req, res) => {
 		module.name = body.name;
 		module.description = body.description;
 		module.learningPathName = body.learningPathName;
-		module.category = body.category;
+		module.categoryName = body.categoryName;
 		module.authorName = body.authorName;
 		module.price = body.price;
 		module.priceCurrency = body.priceCurrency;
